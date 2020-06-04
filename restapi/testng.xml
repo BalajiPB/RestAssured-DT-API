@@ -8,6 +8,7 @@
 			<class name="com.qa.tests.CVIMultiplInvkeMtngEndTest" />
 			<class name="com.qa.tests.CVIMultiplInvkeMtngPauseTest" />
 			<class name="com.qa.tests.CVIMultiplInvkeMtngResumTest" />
+			<class name="com.qa.tests.CVIInvkeViaTxt"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
