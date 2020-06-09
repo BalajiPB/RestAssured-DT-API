@@ -55,7 +55,7 @@ public class IBSGetMeetingsTest extends TestBase{
 	@BeforeSuite
 	public void setUP() throws ClientProtocolException, IOException {
 		setupLog();
-		loggerTest = extent.createTest("UITranscripts");
+		loggerTest = extent.createTest("UI Meeting Info");
 		auth.IBSLogin();
 
 		testbase = new TestBase();
