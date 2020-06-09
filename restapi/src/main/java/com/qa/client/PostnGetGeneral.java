@@ -5,14 +5,17 @@ import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
+import static io.restassured.RestAssured.given;
+
 import java.io.IOException;
+import java.util.HashMap;
 
 import org.testng.Assert;
 
 import com.qa.base.TestBase;
 import com.qa.xlsData.XLSUtils;
 
-public class CVIPostGeneral extends TestBase{
+public class PostnGetGeneral extends TestBase{
 
 	public String[][] xlsData;
 
@@ -36,11 +39,45 @@ public class CVIPostGeneral extends TestBase{
 		return response;
 	}
 
+	public void getMethodforIBS(String serviceURL, String ContentTyp, String Accept, String XTenant, String baseURLadmin , String accessToken){
+
+		httpRequest = RestAssured.given().auth().preemptive().oauth2(accessToken);
+		//		Response response1 = given().auth().preemptive().oauth2(accessToken)
+		httpRequest.contentType(ContentTyp)
+		.header("Accept", Accept)
+		.header("X-Application-Authentication", "Bearer "+accessToken)
+		.header("X-Tenant", XTenant);
+
+		response = httpRequest.request(Method.GET, baseURLadmin+serviceURL);		
+		//		.when()
+		//			.get("https://admin-skill-edge.smartvoicehub.de/svhb/meeting/v1/ui/meetings/");
+//		.get(baseURLadmin+serviceURL);
+
+		String responseBody = response.getBody().asString();
+		Iterable<io.restassured.http.Header> headerArray = response.getHeaders();
+		HashMap<String, String> allHeaders = new HashMap<String, String>();
+		for(io.restassured.http.Header header: headerArray) {
+			allHeaders.put(header.getName(), header.getValue());
+		}
+		System.out.println("All Headers-->"+ allHeaders);
+		//	if (response1.getStatusCode() >= 200 && response1.getStatusCode() <= 299) {
+		//		logger.info("Create Daily Feed Response = " + responseBody);
+		//	} else {
+		//		logger.error("Error creating daily feed = {}", responseBody);
+		//	}
+		//		System.out.println("Response is"+response1);
+		//		String responsestring1=response1.asString();
+		System.out.println(response.getStatusCode());
+		//		System.out.println(responsestring1);
+		System.out.println(responseBody);
+	}
+
+
 
 	public String [][] getAPIPostData(String SheetName) throws IOException{
 
-//		XLSUtils xls = new XLSUtils();
-//		AuthIBSnCVIlogin auth = new AuthIBSnCVIlogin();
+		//		XLSUtils xls = new XLSUtils();
+		//		AuthIBSnCVIlogin auth = new AuthIBSnCVIlogin();
 
 		String path = System.getProperty("user.dir")+"/src/test/java/com/qa/xlsData/TestData.xlsx";
 
@@ -60,10 +97,10 @@ public class CVIPostGeneral extends TestBase{
 	}
 
 	public String responseBodyAssertion(Response response) {//String responseBody) {
-//		logger.info("********************Resopnse Body*******************");
+		//		logger.info("********************Resopnse Body*******************");
 		String responseBody = response.getBody().asString();
-//		logger.info("Response Body==>"+responseBody);
-		
+		//		logger.info("Response Body==>"+responseBody);
+
 		try {
 			Assert.assertTrue(responseBody!= null);
 			System.out.println("TRUE");
@@ -75,22 +112,22 @@ public class CVIPostGeneral extends TestBase{
 	}
 
 	public void statusCodeAssertion(Response response) {
-//		logger.info("********************Status Code*******************");
+		//		logger.info("********************Status Code*******************");
 		int statusCode = response.getStatusCode();
-//		logger.info("Status Code==>"+statusCode);
-//		try {
-			Assert.assertEquals(statusCode, 200);
-			
-//			System.out.println("TRUE");
-//		} catch (Exception e) {
-//			 TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-		
+		//		logger.info("Status Code==>"+statusCode);
+		//		try {
+		Assert.assertEquals(statusCode, 200);
+
+		//			System.out.println("TRUE");
+		//		} catch (Exception e) {
+		//			 TODO Auto-generated catch block
+		//			e.printStackTrace();
+		//		}
+
 	}
 	public void responseTimeAssertion(Response response) {
 		//		logger.info("********************Response Time*******************");
-				long responseTime = response.getTime();
+		long responseTime = response.getTime();
 		//		logger.info("Response Time==>"+responseTime);
 		Assert.assertTrue(responseTime<2000);
 	}
@@ -104,9 +141,9 @@ public class CVIPostGeneral extends TestBase{
 
 	//check Content Type
 	public void contentTypeAssertion(Response response) {
-//		logger.info("********************ContentType*******************");
+		//		logger.info("********************ContentType*******************");
 		String contentType = response.header("Content-Type");
-//		logger.info("Content Type==>"+contentType);
+		//		logger.info("Content Type==>"+contentType);
 		try {
 			Assert.assertEquals(contentType, "application/json");
 			System.out.println("TRUE");

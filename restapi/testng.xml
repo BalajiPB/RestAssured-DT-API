@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-
 <suite name="POST SKILLS using CVI LOGIN">
-	<test thread-count = "4" name="POST SKILLS using CVI LOGIN Test">
+	<test thread-count="4" name="POST SKILLS using CVI LOGIN Test">
 		<classes>
 			<class name="com.qa.tests.CVIMultiplInvkeMtngStrtTest" />
 			<class name="com.qa.tests.CVIMultiplInvkeMtngEndTest" />
 			<class name="com.qa.tests.CVIMultiplInvkeMtngPauseTest" />
 			<class name="com.qa.tests.CVIMultiplInvkeMtngResumTest" />
-			<class name="com.qa.tests.CVIInvkeViaTxt"/>
+			<class name="com.qa.tests.CVIInvkeViaTxt" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="4" name="GET Service using IBS LOGIN Test">
+		<classes>
+			<class name="com.qa.tests.IBSGetUIMeetingsTest" />
+			<class name="com.qa.tests.IBSGetUIHighlightsTest" />
+			<class name="com.qa.tests.IBSGetUITranscriptsTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

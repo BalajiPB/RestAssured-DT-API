@@ -44,30 +44,23 @@ public class AuthIBSnCVIlogin extends TestBase{
 //		logger.info("Getting OAuth Token from server - {}", "https://global.telekom.com/gcp-web-api/oauth");
 		//		SessionFilter sessionFilter = new SessionFilter();
 
-		Response responce = RestAssured.given()
-
-				.baseUri("https://global.telekom.com/gcp-web-api/oauth") 
-				.config(RestAssured.config()
-						.encoderConfig(EncoderConfig.encoderConfig()
-								.encodeContentTypeAs("x-www-form-urlencoded",
-										ContentType.URLENC)))
-				//				.filter(sessionFilter)
-				.contentType(ContentType.URLENC.withCharset("UTF-8"))
+		RequestSpecification httpReq = RestAssured.given()
 				.header("Accept","application/json")
 				.header("Content-Type", "application/x-www-form-urlencoded")
 				.formParam("grant_type", "password")
 				.formParam("scope", "WMFBK4TR")
 				.formParam("client_id", "bFcml2YpS9")
 				.formParam("username", "balaji.balasubramanian@axxessio.com") 
-				.formParam("password", "Reminder@01")
-				.post("https://global.telekom.com/gcp-web-api/oauth");
-
-		JSONObject jsonObject = new JSONObject(responce.getBody().asString());
+				.formParam("password", "Reminder@01");
+				
+		Response response = httpReq.request(Method.POST, "https://global.telekom.com/gcp-web-api/oauth");
+				
+		JSONObject jsonObject = new JSONObject(response.getBody().asString());
 		accessToken = jsonObject.get("access_token").toString();
 		tokenType = jsonObject.get("token_type").toString();
 		refreshToken = jsonObject.get("refresh_token").toString();
 		scope1 = jsonObject.get("scope").toString();
-		System.out.println(responce.asString());
+		System.out.println(response.asString());
 		System.out.println("--access--:"+accessToken);
 		System.out.println("token:"+tokenType);
 		System.out.println("refresh:"+refreshToken);
@@ -102,15 +95,14 @@ public class AuthIBSnCVIlogin extends TestBase{
 						"  \"userId\": \"120049010000000004114801\"\r\n" + 
 //						"}")
 						"}");
-		Response responce = httpReq.request(Method.POST, "https://skill-edge.smartvoicehub.de/user/api/v1/login");
+		Response response = httpReq.request(Method.POST, "https://skill-edge.smartvoicehub.de/user/api/v1/login");
 
-		JSONObject jsonObject = new JSONObject(responce.getBody().asString());
+		JSONObject jsonObject = new JSONObject(response.getBody().asString());
 		token = jsonObject.get("token").toString();
-		System.out.println(responce.asString());
+		System.out.println(response.asString());
 //		System.out.println("--token--:"+token);
-		System.out.println(responce.getStatusCode());
+		System.out.println(response.getStatusCode());
 //		logger.info("Oauth Token for {} with type {} is {}", "balaji.balasubramanian@axxessio.com", tokenType, accessToken);
-
 		obj.token = token;
 		return obj;
 	}

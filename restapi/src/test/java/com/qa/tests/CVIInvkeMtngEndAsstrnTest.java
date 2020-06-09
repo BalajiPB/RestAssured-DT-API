@@ -21,7 +21,7 @@ import org.slf4j.LoggerFactory;
 
 //import com.qa.authLogin.AuthIBSnCVIlogin;
 import com.qa.client.AuthIBSnCVIlogin;
-import com.qa.client.CVIPostGeneral;
+import com.qa.client.PostnGetGeneral;
 import com.qa.base.TestBase;
 import com.qa.xlsData.XLSUtils;
 
@@ -63,7 +63,7 @@ public class CVIInvkeMtngEndAsstrnTest extends TestBase{
 
 		String token = auth.token;
 
-		CVIPostGeneral post = new CVIPostGeneral();
+		PostnGetGeneral post = new PostnGetGeneral();
 		String data[][] = post.getAPIPostData("MeetingEnd");
 		serviceURL = data[0][0];
 		ContentTyp = data[0][1]; 

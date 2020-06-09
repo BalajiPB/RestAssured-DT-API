@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="40" passed="40" failed="0" skipped="0">
+<testng-results ignored="0" total="64" passed="64" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-04T11:27:30Z" name="POST SKILLS using CVI LOGIN" finished-at="2020-06-04T11:27:52Z" duration-ms="21936">
+  <suite started-at="2020-06-08T14:57:15Z" name="POST SKILLS using CVI LOGIN" finished-at="2020-06-08T14:57:35Z" duration-ms="20585">
     <groups>
     </groups>
-    <test started-at="2020-06-04T11:27:30Z" name="POST SKILLS using CVI LOGIN Test" finished-at="2020-06-04T11:27:52Z" duration-ms="21936">
+    <test started-at="2020-06-08T14:57:15Z" name="POST SKILLS using CVI LOGIN Test" finished-at="2020-06-08T14:57:32Z" duration-ms="17033">
       <class name="com.qa.tests.CVIMultiplInvkeMtngPauseTest">
-        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd]" started-at="2020-06-04T11:27:41Z" name="contentTypeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:41Z" duration-ms="426" status="PASS">
+        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4]" started-at="2020-06-08T14:57:22Z" name="contentTypeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:22Z" duration-ms="155" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,18 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contentTypeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd]" started-at="2020-06-04T11:27:41Z" name="teardown" finished-at="2020-06-04T11:27:41Z" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=CVIMultiplInvkeMtngPauseTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd]" started-at="2020-06-04T11:27:41Z" name="contentTypeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:42Z" duration-ms="322" status="PASS">
+        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4]" started-at="2020-06-08T14:57:22Z" name="contentTypeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:23Z" duration-ms="297" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -98,18 +87,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contentTypeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd]" started-at="2020-06-04T11:27:42Z" name="teardown" finished-at="2020-06-04T11:27:42Z" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4]" started-at="2020-06-08T14:57:22Z" name="checkResults" finished-at="2020-06-08T14:57:22Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=CVIMultiplInvkeMtngPauseTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd] output={null}]]]>
+                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=CVIMultiplInvkeMtngPauseTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd]" started-at="2020-06-04T11:27:42Z" name="responseBodyTest" data-provider="POSTData" finished-at="2020-06-04T11:27:42Z" duration-ms="429" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4]" started-at="2020-06-08T14:57:23Z" name="checkResults" finished-at="2020-06-08T14:57:23Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=CVIMultiplInvkeMtngPauseTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4]" started-at="2020-06-08T14:57:23Z" name="responseBodyTest" data-provider="POSTData" finished-at="2020-06-08T14:57:23Z" duration-ms="207" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -149,18 +149,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseBodyTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd]" started-at="2020-06-04T11:27:42Z" name="teardown" finished-at="2020-06-04T11:27:42Z" duration-ms="41" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4]" started-at="2020-06-08T14:57:23Z" name="checkResults" finished-at="2020-06-08T14:57:23Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=CVIMultiplInvkeMtngPauseTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd] output={null}]]]>
+                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=CVIMultiplInvkeMtngPauseTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd]" started-at="2020-06-04T11:27:42Z" name="responseBodyTest" data-provider="POSTData" finished-at="2020-06-04T11:27:43Z" duration-ms="878" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4]" started-at="2020-06-08T14:57:23Z" name="responseBodyTest" data-provider="POSTData" finished-at="2020-06-08T14:57:23Z" duration-ms="158" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -200,18 +200,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseBodyTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd]" started-at="2020-06-04T11:27:43Z" name="teardown" finished-at="2020-06-04T11:27:43Z" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4]" started-at="2020-06-08T14:57:23Z" name="checkResults" finished-at="2020-06-08T14:57:23Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=CVIMultiplInvkeMtngPauseTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd] output={null}]]]>
+                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=CVIMultiplInvkeMtngPauseTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd]" started-at="2020-06-04T11:27:43Z" name="responseTimeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:44Z" duration-ms="295" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4]" started-at="2020-06-08T14:57:23Z" name="responseTimeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:24Z" duration-ms="168" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -251,18 +251,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseTimeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd]" started-at="2020-06-04T11:27:44Z" name="teardown" finished-at="2020-06-04T11:27:44Z" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4]" started-at="2020-06-08T14:57:24Z" name="checkResults" finished-at="2020-06-08T14:57:24Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=CVIMultiplInvkeMtngPauseTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd] output={null}]]]>
+                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=CVIMultiplInvkeMtngPauseTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd]" started-at="2020-06-04T11:27:44Z" name="responseTimeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:44Z" duration-ms="302" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4]" started-at="2020-06-08T14:57:24Z" name="responseTimeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:24Z" duration-ms="289" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -302,18 +302,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseTimeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd]" started-at="2020-06-04T11:27:44Z" name="teardown" finished-at="2020-06-04T11:27:44Z" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4]" started-at="2020-06-08T14:57:24Z" name="checkResults" finished-at="2020-06-08T14:57:24Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=CVIMultiplInvkeMtngPauseTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd] output={null}]]]>
+                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=CVIMultiplInvkeMtngPauseTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd]" started-at="2020-06-04T11:27:44Z" name="statusCodeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:44Z" duration-ms="286" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4]" started-at="2020-06-08T14:57:24Z" name="statusCodeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:24Z" duration-ms="160" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -353,18 +353,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statusCodeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd]" started-at="2020-06-04T11:27:44Z" name="teardown" finished-at="2020-06-04T11:27:44Z" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4]" started-at="2020-06-08T14:57:24Z" name="checkResults" finished-at="2020-06-08T14:57:24Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=CVIMultiplInvkeMtngPauseTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd] output={null}]]]>
+                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=CVIMultiplInvkeMtngPauseTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd]" started-at="2020-06-04T11:27:44Z" name="statusCodeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:45Z" duration-ms="234" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4]" started-at="2020-06-08T14:57:24Z" name="statusCodeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:24Z" duration-ms="204" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -404,20 +404,20 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statusCodeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd]" started-at="2020-06-04T11:27:45Z" name="teardown" finished-at="2020-06-04T11:27:45Z" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4]" started-at="2020-06-08T14:57:24Z" name="checkResults" finished-at="2020-06-08T14:57:24Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=CVIMultiplInvkeMtngPauseTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd] output={null}]]]>
+                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=CVIMultiplInvkeMtngPauseTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
+        </test-method> <!-- checkResults -->
       </class> <!-- com.qa.tests.CVIMultiplInvkeMtngPauseTest -->
       <class name="com.qa.tests.CVIMultiplInvkeMtngStrtTest">
-        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e]" started-at="2020-06-04T11:27:31Z" name="contentTypeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:31Z" duration-ms="409" status="PASS">
+        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd]" started-at="2020-06-08T14:57:15Z" name="contentTypeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:16Z" duration-ms="422" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -457,18 +457,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contentTypeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e]" started-at="2020-06-04T11:27:31Z" name="teardown" finished-at="2020-06-04T11:27:31Z" duration-ms="247" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd]" started-at="2020-06-08T14:57:16Z" name="checkResults" finished-at="2020-06-08T14:57:16Z" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=CVIMultiplInvkeMtngStrtTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e] output={null}]]]>
+                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=CVIMultiplInvkeMtngStrtTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e]" started-at="2020-06-04T11:27:31Z" name="contentTypeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:32Z" duration-ms="389" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd]" started-at="2020-06-08T14:57:16Z" name="contentTypeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:16Z" duration-ms="586" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -508,18 +508,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contentTypeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e]" started-at="2020-06-04T11:27:32Z" name="teardown" finished-at="2020-06-04T11:27:32Z" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd]" started-at="2020-06-08T14:57:16Z" name="checkResults" finished-at="2020-06-08T14:57:16Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=CVIMultiplInvkeMtngStrtTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e] output={null}]]]>
+                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=CVIMultiplInvkeMtngStrtTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e]" started-at="2020-06-04T11:27:32Z" name="responseBodyTest" data-provider="POSTData" finished-at="2020-06-04T11:27:32Z" duration-ms="262" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd]" started-at="2020-06-08T14:57:17Z" name="responseBodyTest" data-provider="POSTData" finished-at="2020-06-08T14:57:17Z" duration-ms="284" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -559,18 +559,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseBodyTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e]" started-at="2020-06-04T11:27:32Z" name="teardown" finished-at="2020-06-04T11:27:32Z" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd]" started-at="2020-06-08T14:57:17Z" name="checkResults" finished-at="2020-06-08T14:57:17Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=CVIMultiplInvkeMtngStrtTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e] output={null}]]]>
+                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=CVIMultiplInvkeMtngStrtTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e]" started-at="2020-06-04T11:27:32Z" name="responseBodyTest" data-provider="POSTData" finished-at="2020-06-04T11:27:33Z" duration-ms="429" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd]" started-at="2020-06-08T14:57:17Z" name="responseBodyTest" data-provider="POSTData" finished-at="2020-06-08T14:57:18Z" duration-ms="597" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -610,18 +610,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseBodyTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e]" started-at="2020-06-04T11:27:33Z" name="teardown" finished-at="2020-06-04T11:27:33Z" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd]" started-at="2020-06-08T14:57:18Z" name="checkResults" finished-at="2020-06-08T14:57:18Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=CVIMultiplInvkeMtngStrtTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e] output={null}]]]>
+                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=CVIMultiplInvkeMtngStrtTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e]" started-at="2020-06-04T11:27:33Z" name="responseTimeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:33Z" duration-ms="407" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd]" started-at="2020-06-08T14:57:18Z" name="responseTimeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:18Z" duration-ms="442" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -661,18 +661,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseTimeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e]" started-at="2020-06-04T11:27:33Z" name="teardown" finished-at="2020-06-04T11:27:33Z" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd]" started-at="2020-06-08T14:57:18Z" name="checkResults" finished-at="2020-06-08T14:57:18Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=CVIMultiplInvkeMtngStrtTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e] output={null}]]]>
+                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=CVIMultiplInvkeMtngStrtTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e]" started-at="2020-06-04T11:27:33Z" name="responseTimeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:34Z" duration-ms="415" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd]" started-at="2020-06-08T14:57:18Z" name="responseTimeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:19Z" duration-ms="490" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -712,18 +712,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseTimeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e]" started-at="2020-06-04T11:27:34Z" name="teardown" finished-at="2020-06-04T11:27:34Z" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd]" started-at="2020-06-08T14:57:19Z" name="checkResults" finished-at="2020-06-08T14:57:19Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=CVIMultiplInvkeMtngStrtTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e] output={null}]]]>
+                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=CVIMultiplInvkeMtngStrtTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e]" started-at="2020-06-04T11:27:34Z" name="statusCodeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:35Z" duration-ms="493" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd]" started-at="2020-06-08T14:57:19Z" name="statusCodeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:19Z" duration-ms="277" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -763,18 +763,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statusCodeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e]" started-at="2020-06-04T11:27:35Z" name="teardown" finished-at="2020-06-04T11:27:35Z" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd]" started-at="2020-06-08T14:57:19Z" name="checkResults" finished-at="2020-06-08T14:57:19Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=CVIMultiplInvkeMtngStrtTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e] output={null}]]]>
+                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=CVIMultiplInvkeMtngStrtTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e]" started-at="2020-06-04T11:27:35Z" name="statusCodeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:35Z" duration-ms="648" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd]" started-at="2020-06-08T14:57:19Z" name="statusCodeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:20Z" duration-ms="586" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -814,40 +814,20 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statusCodeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e]" started-at="2020-06-04T11:27:35Z" name="teardown" finished-at="2020-06-04T11:27:35Z" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd]" started-at="2020-06-08T14:57:20Z" name="checkResults" finished-at="2020-06-08T14:57:20Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=CVIMultiplInvkeMtngStrtTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e] output={null}]]]>
+                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=CVIMultiplInvkeMtngStrtTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
+        </test-method> <!-- checkResults -->
       </class> <!-- com.qa.tests.CVIMultiplInvkeMtngStrtTest -->
       <class name="com.qa.tests.CVIInvkeViaTxt">
-        <test-method is-config="true" signature="login()[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4]" started-at="2020-06-04T11:27:28Z" name="login" finished-at="2020-06-04T11:27:30Z" duration-ms="1631" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977]" started-at="2020-06-04T11:27:30Z" name="login" finished-at="2020-06-04T11:27:30Z" duration-ms="108" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@10d68fcd]" started-at="2020-06-04T11:27:30Z" name="login" finished-at="2020-06-04T11:27:30Z" duration-ms="118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d]" started-at="2020-06-04T11:27:30Z" name="login" finished-at="2020-06-04T11:27:30Z" duration-ms="112" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@31f9b85e]" started-at="2020-06-04T11:27:30Z" name="login" finished-at="2020-06-04T11:27:30Z" duration-ms="91" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4]" started-at="2020-06-04T11:27:47Z" name="contentTypeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:48Z" duration-ms="442" status="PASS">
+        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e]" started-at="2020-06-08T14:57:27Z" name="contentTypeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:27Z" duration-ms="357" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -880,18 +860,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contentTypeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4]" started-at="2020-06-04T11:27:48Z" name="teardown" finished-at="2020-06-04T11:27:48Z" duration-ms="50" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e]" started-at="2020-06-08T14:57:27Z" name="checkResults" finished-at="2020-06-08T14:57:27Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=CVIInvkeViaTxt.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4] output={null}]]]>
+                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=CVIInvkeViaTxt.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4]" started-at="2020-06-04T11:27:48Z" name="contentTypeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:48Z" duration-ms="483" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e]" started-at="2020-06-08T14:57:27Z" name="contentTypeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:28Z" duration-ms="893" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -924,18 +904,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contentTypeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4]" started-at="2020-06-04T11:27:48Z" name="teardown" finished-at="2020-06-04T11:27:48Z" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e]" started-at="2020-06-08T14:57:28Z" name="checkResults" finished-at="2020-06-08T14:57:28Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=CVIInvkeViaTxt.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4] output={null}]]]>
+                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=CVIInvkeViaTxt.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4]" started-at="2020-06-04T11:27:48Z" name="responseBodyTest" data-provider="POSTData" finished-at="2020-06-04T11:27:49Z" duration-ms="626" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e]" started-at="2020-06-08T14:57:28Z" name="responseBodyTest" data-provider="POSTData" finished-at="2020-06-08T14:57:29Z" duration-ms="362" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -968,18 +948,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseBodyTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4]" started-at="2020-06-04T11:27:49Z" name="teardown" finished-at="2020-06-04T11:27:49Z" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e]" started-at="2020-06-08T14:57:29Z" name="checkResults" finished-at="2020-06-08T14:57:29Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=CVIInvkeViaTxt.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4] output={null}]]]>
+                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=CVIInvkeViaTxt.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4]" started-at="2020-06-04T11:27:49Z" name="responseBodyTest" data-provider="POSTData" finished-at="2020-06-04T11:27:49Z" duration-ms="370" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e]" started-at="2020-06-08T14:57:29Z" name="responseBodyTest" data-provider="POSTData" finished-at="2020-06-08T14:57:29Z" duration-ms="505" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1012,18 +992,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseBodyTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4]" started-at="2020-06-04T11:27:49Z" name="teardown" finished-at="2020-06-04T11:27:49Z" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e]" started-at="2020-06-08T14:57:29Z" name="checkResults" finished-at="2020-06-08T14:57:29Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=CVIInvkeViaTxt.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4] output={null}]]]>
+                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=CVIInvkeViaTxt.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4]" started-at="2020-06-04T11:27:49Z" name="responseTimeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:50Z" duration-ms="308" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e]" started-at="2020-06-08T14:57:29Z" name="responseTimeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:30Z" duration-ms="352" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1056,18 +1036,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseTimeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4]" started-at="2020-06-04T11:27:50Z" name="teardown" finished-at="2020-06-04T11:27:50Z" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e]" started-at="2020-06-08T14:57:30Z" name="checkResults" finished-at="2020-06-08T14:57:30Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=CVIInvkeViaTxt.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4] output={null}]]]>
+                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=CVIInvkeViaTxt.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4]" started-at="2020-06-04T11:27:50Z" name="responseTimeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:50Z" duration-ms="528" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e]" started-at="2020-06-08T14:57:30Z" name="responseTimeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:30Z" duration-ms="588" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1100,18 +1080,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseTimeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4]" started-at="2020-06-04T11:27:50Z" name="teardown" finished-at="2020-06-04T11:27:50Z" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e]" started-at="2020-06-08T14:57:30Z" name="checkResults" finished-at="2020-06-08T14:57:30Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=CVIInvkeViaTxt.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4] output={null}]]]>
+                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=CVIInvkeViaTxt.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4]" started-at="2020-06-04T11:27:50Z" name="statusCodeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:51Z" duration-ms="701" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e]" started-at="2020-06-08T14:57:30Z" name="statusCodeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:31Z" duration-ms="466" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1144,18 +1124,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statusCodeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4]" started-at="2020-06-04T11:27:51Z" name="teardown" finished-at="2020-06-04T11:27:51Z" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e]" started-at="2020-06-08T14:57:31Z" name="checkResults" finished-at="2020-06-08T14:57:31Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=CVIInvkeViaTxt.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4] output={null}]]]>
+                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=CVIInvkeViaTxt.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4]" started-at="2020-06-04T11:27:51Z" name="statusCodeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:52Z" duration-ms="716" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e]" started-at="2020-06-08T14:57:31Z" name="statusCodeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:31Z" duration-ms="497" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1188,20 +1168,40 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statusCodeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4]" started-at="2020-06-04T11:27:52Z" name="teardown" finished-at="2020-06-04T11:27:52Z" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e]" started-at="2020-06-08T14:57:31Z" name="checkResults" finished-at="2020-06-08T14:57:31Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=CVIInvkeViaTxt.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@6db9f5a4] output={null}]]]>
+                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=CVIInvkeViaTxt.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e] output={null}]]]>
               </value>
             </param>
           </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e]" started-at="2020-06-08T14:57:31Z" name="teardown" finished-at="2020-06-08T14:57:32Z" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d]" started-at="2020-06-08T14:57:32Z" name="teardown" finished-at="2020-06-08T14:57:32Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4]" started-at="2020-06-08T14:57:32Z" name="teardown" finished-at="2020-06-08T14:57:32Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5]" started-at="2020-06-08T14:57:32Z" name="teardown" finished-at="2020-06-08T14:57:32Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd]" started-at="2020-06-08T14:57:32Z" name="teardown" finished-at="2020-06-08T14:57:32Z" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.qa.tests.CVIInvkeViaTxt -->
       <class name="com.qa.tests.CVIMultiplInvkeMtngResumTest">
-        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d]" started-at="2020-06-04T11:27:45Z" name="contentTypeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:45Z" duration-ms="280" status="PASS">
+        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5]" started-at="2020-06-08T14:57:24Z" name="contentTypeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:25Z" duration-ms="161" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1241,18 +1241,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contentTypeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d]" started-at="2020-06-04T11:27:45Z" name="teardown" finished-at="2020-06-04T11:27:45Z" duration-ms="20" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=CVIMultiplInvkeMtngResumTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d]" started-at="2020-06-04T11:27:45Z" name="contentTypeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:45Z" duration-ms="289" status="PASS">
+        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5]" started-at="2020-06-08T14:57:25Z" name="contentTypeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:25Z" duration-ms="208" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1292,18 +1281,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contentTypeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d]" started-at="2020-06-04T11:27:45Z" name="teardown" finished-at="2020-06-04T11:27:45Z" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5]" started-at="2020-06-08T14:57:25Z" name="checkResults" finished-at="2020-06-08T14:57:25Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=CVIMultiplInvkeMtngResumTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d] output={null}]]]>
+                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=CVIMultiplInvkeMtngResumTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d]" started-at="2020-06-04T11:27:45Z" name="responseBodyTest" data-provider="POSTData" finished-at="2020-06-04T11:27:46Z" duration-ms="242" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5]" started-at="2020-06-08T14:57:25Z" name="checkResults" finished-at="2020-06-08T14:57:25Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=CVIMultiplInvkeMtngResumTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5]" started-at="2020-06-08T14:57:25Z" name="responseBodyTest" data-provider="POSTData" finished-at="2020-06-08T14:57:25Z" duration-ms="170" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1343,18 +1343,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseBodyTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d]" started-at="2020-06-04T11:27:46Z" name="teardown" finished-at="2020-06-04T11:27:46Z" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5]" started-at="2020-06-08T14:57:25Z" name="checkResults" finished-at="2020-06-08T14:57:25Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=CVIMultiplInvkeMtngResumTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d] output={null}]]]>
+                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=CVIMultiplInvkeMtngResumTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d]" started-at="2020-06-04T11:27:46Z" name="responseBodyTest" data-provider="POSTData" finished-at="2020-06-04T11:27:46Z" duration-ms="308" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5]" started-at="2020-06-08T14:57:25Z" name="responseBodyTest" data-provider="POSTData" finished-at="2020-06-08T14:57:25Z" duration-ms="301" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1394,18 +1394,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseBodyTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d]" started-at="2020-06-04T11:27:46Z" name="teardown" finished-at="2020-06-04T11:27:46Z" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5]" started-at="2020-06-08T14:57:25Z" name="checkResults" finished-at="2020-06-08T14:57:25Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=CVIMultiplInvkeMtngResumTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d] output={null}]]]>
+                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=CVIMultiplInvkeMtngResumTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d]" started-at="2020-06-04T11:27:46Z" name="responseTimeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:46Z" duration-ms="192" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5]" started-at="2020-06-08T14:57:26Z" name="responseTimeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:26Z" duration-ms="161" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1445,18 +1445,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseTimeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d]" started-at="2020-06-04T11:27:46Z" name="teardown" finished-at="2020-06-04T11:27:46Z" duration-ms="11" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=CVIMultiplInvkeMtngResumTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d]" started-at="2020-06-04T11:27:46Z" name="responseTimeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:47Z" duration-ms="271" status="PASS">
+        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5]" started-at="2020-06-08T14:57:26Z" name="responseTimeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:26Z" duration-ms="301" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1496,18 +1485,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseTimeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d]" started-at="2020-06-04T11:27:47Z" name="teardown" finished-at="2020-06-04T11:27:47Z" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5]" started-at="2020-06-08T14:57:26Z" name="checkResults" finished-at="2020-06-08T14:57:26Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=CVIMultiplInvkeMtngResumTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d] output={null}]]]>
+                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=CVIMultiplInvkeMtngResumTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d]" started-at="2020-06-04T11:27:47Z" name="statusCodeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:47Z" duration-ms="203" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5]" started-at="2020-06-08T14:57:26Z" name="checkResults" finished-at="2020-06-08T14:57:26Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=CVIMultiplInvkeMtngResumTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5]" started-at="2020-06-08T14:57:26Z" name="statusCodeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:26Z" duration-ms="174" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1547,18 +1547,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statusCodeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d]" started-at="2020-06-04T11:27:47Z" name="teardown" finished-at="2020-06-04T11:27:47Z" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5]" started-at="2020-06-08T14:57:26Z" name="checkResults" finished-at="2020-06-08T14:57:26Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=CVIMultiplInvkeMtngResumTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d] output={null}]]]>
+                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=CVIMultiplInvkeMtngResumTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d]" started-at="2020-06-04T11:27:47Z" name="statusCodeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:47Z" duration-ms="214" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5]" started-at="2020-06-08T14:57:26Z" name="statusCodeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:27Z" duration-ms="298" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1598,20 +1598,20 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statusCodeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d]" started-at="2020-06-04T11:27:47Z" name="teardown" finished-at="2020-06-04T11:27:47Z" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5]" started-at="2020-06-08T14:57:27Z" name="checkResults" finished-at="2020-06-08T14:57:27Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=CVIMultiplInvkeMtngResumTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@117e949d] output={null}]]]>
+                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=CVIMultiplInvkeMtngResumTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
+        </test-method> <!-- checkResults -->
       </class> <!-- com.qa.tests.CVIMultiplInvkeMtngResumTest -->
       <class name="com.qa.tests.CVIMultiplInvkeMtngEndTest">
-        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977]" started-at="2020-06-04T11:27:35Z" name="contentTypeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:36Z" duration-ms="720" status="PASS">
+        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d]" started-at="2020-06-08T14:57:20Z" name="contentTypeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:20Z" duration-ms="125" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1651,18 +1651,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contentTypeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977]" started-at="2020-06-04T11:27:36Z" name="teardown" finished-at="2020-06-04T11:27:36Z" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d]" started-at="2020-06-08T14:57:20Z" name="checkResults" finished-at="2020-06-08T14:57:20Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=CVIMultiplInvkeMtngEndTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977] output={null}]]]>
+                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=CVIMultiplInvkeMtngEndTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977]" started-at="2020-06-04T11:27:36Z" name="contentTypeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:37Z" duration-ms="874" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d]" started-at="2020-06-08T14:57:20Z" name="contentTypeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:20Z" duration-ms="200" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1702,18 +1702,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contentTypeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977]" started-at="2020-06-04T11:27:37Z" name="teardown" finished-at="2020-06-04T11:27:37Z" duration-ms="28" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d]" started-at="2020-06-08T14:57:20Z" name="checkResults" finished-at="2020-06-08T14:57:20Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=CVIMultiplInvkeMtngEndTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977] output={null}]]]>
+                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=CVIMultiplInvkeMtngEndTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977]" started-at="2020-06-04T11:27:37Z" name="responseBodyTest" data-provider="POSTData" finished-at="2020-06-04T11:27:38Z" duration-ms="950" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d]" started-at="2020-06-08T14:57:21Z" name="responseBodyTest" data-provider="POSTData" finished-at="2020-06-08T14:57:21Z" duration-ms="125" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1753,18 +1753,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseBodyTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977]" started-at="2020-06-04T11:27:38Z" name="teardown" finished-at="2020-06-04T11:27:38Z" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d]" started-at="2020-06-08T14:57:21Z" name="checkResults" finished-at="2020-06-08T14:57:21Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=CVIMultiplInvkeMtngEndTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977] output={null}]]]>
+                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=CVIMultiplInvkeMtngEndTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977]" started-at="2020-06-04T11:27:38Z" name="responseBodyTest" data-provider="POSTData" finished-at="2020-06-04T11:27:39Z" duration-ms="542" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d]" started-at="2020-06-08T14:57:21Z" name="responseBodyTest" data-provider="POSTData" finished-at="2020-06-08T14:57:21Z" duration-ms="299" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1804,18 +1804,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseBodyTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977]" started-at="2020-06-04T11:27:39Z" name="teardown" finished-at="2020-06-04T11:27:39Z" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d]" started-at="2020-06-08T14:57:21Z" name="checkResults" finished-at="2020-06-08T14:57:21Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=CVIMultiplInvkeMtngEndTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977] output={null}]]]>
+                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=CVIMultiplInvkeMtngEndTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977]" started-at="2020-06-04T11:27:39Z" name="responseTimeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:39Z" duration-ms="701" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d]" started-at="2020-06-08T14:57:21Z" name="responseTimeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:21Z" duration-ms="131" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1855,18 +1855,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseTimeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977]" started-at="2020-06-04T11:27:39Z" name="teardown" finished-at="2020-06-04T11:27:39Z" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d]" started-at="2020-06-08T14:57:21Z" name="checkResults" finished-at="2020-06-08T14:57:21Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=CVIMultiplInvkeMtngEndTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977] output={null}]]]>
+                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=CVIMultiplInvkeMtngEndTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977]" started-at="2020-06-04T11:27:39Z" name="responseTimeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:40Z" duration-ms="553" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d]" started-at="2020-06-08T14:57:21Z" name="responseTimeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:22Z" duration-ms="200" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1906,18 +1906,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseTimeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977]" started-at="2020-06-04T11:27:40Z" name="teardown" finished-at="2020-06-04T11:27:40Z" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d]" started-at="2020-06-08T14:57:22Z" name="checkResults" finished-at="2020-06-08T14:57:22Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=CVIMultiplInvkeMtngEndTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977] output={null}]]]>
+                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=CVIMultiplInvkeMtngEndTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977]" started-at="2020-06-04T11:27:40Z" name="statusCodeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:41Z" duration-ms="405" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d]" started-at="2020-06-08T14:57:22Z" name="statusCodeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:22Z" duration-ms="129" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1957,18 +1957,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statusCodeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977]" started-at="2020-06-04T11:27:41Z" name="teardown" finished-at="2020-06-04T11:27:41Z" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d]" started-at="2020-06-08T14:57:22Z" name="checkResults" finished-at="2020-06-08T14:57:22Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=CVIMultiplInvkeMtngEndTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977] output={null}]]]>
+                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=CVIMultiplInvkeMtngEndTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977]" started-at="2020-06-04T11:27:41Z" name="statusCodeTest" data-provider="POSTData" finished-at="2020-06-04T11:27:41Z" duration-ms="317" status="PASS">
+        </test-method> <!-- checkResults -->
+        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d]" started-at="2020-06-08T14:57:22Z" name="statusCodeTest" data-provider="POSTData" finished-at="2020-06-08T14:57:22Z" duration-ms="313" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2008,18 +2008,1080 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statusCodeTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977]" started-at="2020-06-04T11:27:41Z" name="teardown" finished-at="2020-06-04T11:27:41Z" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d]" started-at="2020-06-08T14:57:22Z" name="checkResults" finished-at="2020-06-08T14:57:22Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=CVIMultiplInvkeMtngEndTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@424e1977] output={null}]]]>
+                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=CVIMultiplInvkeMtngEndTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
+        </test-method> <!-- checkResults -->
       </class> <!-- com.qa.tests.CVIMultiplInvkeMtngEndTest -->
     </test> <!-- POST SKILLS using CVI LOGIN Test -->
+    <test started-at="2020-06-08T14:57:32Z" name="GET Service using IBS LOGIN Test" finished-at="2020-06-08T14:57:35Z" duration-ms="3531">
+      <class name="com.qa.tests.IBSGetUITranscriptsTest">
+        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da]" started-at="2020-06-08T14:57:34Z" name="contentTypeTest" data-provider="GETData" finished-at="2020-06-08T14:57:34Z" duration-ms="81" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/transcript/?meetingId=4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentTypeTest -->
+        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da]" started-at="2020-06-08T14:57:34Z" name="contentTypeTest" data-provider="GETData" finished-at="2020-06-08T14:57:34Z" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/transcript/?meetingId=2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentTypeTest -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da]" started-at="2020-06-08T14:57:34Z" name="checkResults" finished-at="2020-06-08T14:57:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=IBSGetUITranscriptsTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da]" started-at="2020-06-08T14:57:34Z" name="checkResults" finished-at="2020-06-08T14:57:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=IBSGetUITranscriptsTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da]" started-at="2020-06-08T14:57:34Z" name="responseBodyTest" data-provider="GETData" finished-at="2020-06-08T14:57:34Z" duration-ms="93" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/transcript/?meetingId=4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseBodyTest -->
+        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da]" started-at="2020-06-08T14:57:34Z" name="responseBodyTest" data-provider="GETData" finished-at="2020-06-08T14:57:35Z" duration-ms="91" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/transcript/?meetingId=2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseBodyTest -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da]" started-at="2020-06-08T14:57:34Z" name="checkResults" finished-at="2020-06-08T14:57:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=IBSGetUITranscriptsTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da]" started-at="2020-06-08T14:57:35Z" name="checkResults" finished-at="2020-06-08T14:57:35Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=IBSGetUITranscriptsTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da]" started-at="2020-06-08T14:57:35Z" name="responseTimeTest" data-provider="GETData" finished-at="2020-06-08T14:57:35Z" duration-ms="81" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/transcript/?meetingId=4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseTimeTest -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da]" started-at="2020-06-08T14:57:35Z" name="checkResults" finished-at="2020-06-08T14:57:35Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=IBSGetUITranscriptsTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da]" started-at="2020-06-08T14:57:35Z" name="responseTimeTest" data-provider="GETData" finished-at="2020-06-08T14:57:35Z" duration-ms="90" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/transcript/?meetingId=2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseTimeTest -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da]" started-at="2020-06-08T14:57:35Z" name="checkResults" finished-at="2020-06-08T14:57:35Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=IBSGetUITranscriptsTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da]" started-at="2020-06-08T14:57:35Z" name="statusCodeTest" data-provider="GETData" finished-at="2020-06-08T14:57:35Z" duration-ms="81" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/transcript/?meetingId=4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusCodeTest -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da]" started-at="2020-06-08T14:57:35Z" name="checkResults" finished-at="2020-06-08T14:57:35Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=IBSGetUITranscriptsTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da]" started-at="2020-06-08T14:57:35Z" name="statusCodeTest" data-provider="GETData" finished-at="2020-06-08T14:57:35Z" duration-ms="87" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/transcript/?meetingId=2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusCodeTest -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da]" started-at="2020-06-08T14:57:35Z" name="checkResults" finished-at="2020-06-08T14:57:35Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=IBSGetUITranscriptsTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+      </class> <!-- com.qa.tests.IBSGetUITranscriptsTest -->
+      <class name="com.qa.tests.IBSGetUIMeetingsTest">
+        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be]" started-at="2020-06-08T14:57:32Z" name="contentTypeTest" data-provider="GETData" finished-at="2020-06-08T14:57:32Z" duration-ms="147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/meetings/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentTypeTest -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be]" started-at="2020-06-08T14:57:32Z" name="checkResults" finished-at="2020-06-08T14:57:32Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=IBSGetUIMeetingsTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be]" started-at="2020-06-08T14:57:32Z" name="contentTypeTest" data-provider="GETData" finished-at="2020-06-08T14:57:32Z" duration-ms="115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/meetings/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentTypeTest -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be]" started-at="2020-06-08T14:57:32Z" name="checkResults" finished-at="2020-06-08T14:57:32Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=IBSGetUIMeetingsTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be]" started-at="2020-06-08T14:57:32Z" name="responseBodyTest" data-provider="GETData" finished-at="2020-06-08T14:57:32Z" duration-ms="85" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/meetings/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseBodyTest -->
+        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be]" started-at="2020-06-08T14:57:32Z" name="responseBodyTest" data-provider="GETData" finished-at="2020-06-08T14:57:32Z" duration-ms="87" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/meetings/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseBodyTest -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be]" started-at="2020-06-08T14:57:32Z" name="checkResults" finished-at="2020-06-08T14:57:32Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=IBSGetUIMeetingsTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be]" started-at="2020-06-08T14:57:32Z" name="checkResults" finished-at="2020-06-08T14:57:32Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=IBSGetUIMeetingsTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be]" started-at="2020-06-08T14:57:32Z" name="responseTimeTest" data-provider="GETData" finished-at="2020-06-08T14:57:32Z" duration-ms="81" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/meetings/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseTimeTest -->
+        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be]" started-at="2020-06-08T14:57:32Z" name="responseTimeTest" data-provider="GETData" finished-at="2020-06-08T14:57:33Z" duration-ms="87" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/meetings/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseTimeTest -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be]" started-at="2020-06-08T14:57:32Z" name="checkResults" finished-at="2020-06-08T14:57:32Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=IBSGetUIMeetingsTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be]" started-at="2020-06-08T14:57:33Z" name="checkResults" finished-at="2020-06-08T14:57:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=IBSGetUIMeetingsTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be]" started-at="2020-06-08T14:57:33Z" name="statusCodeTest" data-provider="GETData" finished-at="2020-06-08T14:57:33Z" duration-ms="87" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/meetings/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusCodeTest -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be]" started-at="2020-06-08T14:57:33Z" name="checkResults" finished-at="2020-06-08T14:57:33Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=IBSGetUIMeetingsTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be]" started-at="2020-06-08T14:57:33Z" name="statusCodeTest" data-provider="GETData" finished-at="2020-06-08T14:57:33Z" duration-ms="106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/meetings/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusCodeTest -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be]" started-at="2020-06-08T14:57:33Z" name="checkResults" finished-at="2020-06-08T14:57:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=IBSGetUIMeetingsTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+      </class> <!-- com.qa.tests.IBSGetUIMeetingsTest -->
+      <class name="com.qa.tests.IBSGetUIHighlightsTest">
+        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7]" started-at="2020-06-08T14:57:33Z" name="contentTypeTest" data-provider="GETData" finished-at="2020-06-08T14:57:33Z" duration-ms="83" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/highlights/?meetingId=4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentTypeTest -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7]" started-at="2020-06-08T14:57:33Z" name="checkResults" finished-at="2020-06-08T14:57:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=IBSGetUIHighlightsTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method signature="contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7]" started-at="2020-06-08T14:57:33Z" name="contentTypeTest" data-provider="GETData" finished-at="2020-06-08T14:57:33Z" duration-ms="80" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/highlights/?meetingId=0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentTypeTest -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7]" started-at="2020-06-08T14:57:33Z" name="checkResults" finished-at="2020-06-08T14:57:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contentTypeTest status=SUCCESS method=IBSGetUIHighlightsTest.contentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7]" started-at="2020-06-08T14:57:33Z" name="responseBodyTest" data-provider="GETData" finished-at="2020-06-08T14:57:33Z" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/highlights/?meetingId=4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseBodyTest -->
+        <test-method signature="responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7]" started-at="2020-06-08T14:57:33Z" name="responseBodyTest" data-provider="GETData" finished-at="2020-06-08T14:57:33Z" duration-ms="83" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/highlights/?meetingId=0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseBodyTest -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7]" started-at="2020-06-08T14:57:33Z" name="checkResults" finished-at="2020-06-08T14:57:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=IBSGetUIHighlightsTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7]" started-at="2020-06-08T14:57:33Z" name="checkResults" finished-at="2020-06-08T14:57:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=responseBodyTest status=SUCCESS method=IBSGetUIHighlightsTest.responseBodyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7]" started-at="2020-06-08T14:57:34Z" name="responseTimeTest" data-provider="GETData" finished-at="2020-06-08T14:57:34Z" duration-ms="80" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/highlights/?meetingId=4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseTimeTest -->
+        <test-method signature="responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7]" started-at="2020-06-08T14:57:34Z" name="responseTimeTest" data-provider="GETData" finished-at="2020-06-08T14:57:34Z" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/highlights/?meetingId=0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseTimeTest -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7]" started-at="2020-06-08T14:57:34Z" name="checkResults" finished-at="2020-06-08T14:57:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=IBSGetUIHighlightsTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7]" started-at="2020-06-08T14:57:34Z" name="checkResults" finished-at="2020-06-08T14:57:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=responseTimeTest status=SUCCESS method=IBSGetUIHighlightsTest.responseTimeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7]" started-at="2020-06-08T14:57:34Z" name="statusCodeTest" data-provider="GETData" finished-at="2020-06-08T14:57:34Z" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/highlights/?meetingId=4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusCodeTest -->
+        <test-method signature="statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7]" started-at="2020-06-08T14:57:34Z" name="statusCodeTest" data-provider="GETData" finished-at="2020-06-08T14:57:34Z" duration-ms="87" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/svhb/meeting/v1/ui/highlights/?meetingId=0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GLOBAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusCodeTest -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7]" started-at="2020-06-08T14:57:34Z" name="checkResults" finished-at="2020-06-08T14:57:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=IBSGetUIHighlightsTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method is-config="true" signature="checkResults(org.testng.ITestResult)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7]" started-at="2020-06-08T14:57:34Z" name="checkResults" finished-at="2020-06-08T14:57:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=statusCodeTest status=SUCCESS method=IBSGetUIHighlightsTest.statusCodeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResults -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7]" started-at="2020-06-08T14:57:35Z" name="teardown" finished-at="2020-06-08T14:57:35Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be]" started-at="2020-06-08T14:57:35Z" name="teardown" finished-at="2020-06-08T14:57:35Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da]" started-at="2020-06-08T14:57:35Z" name="teardown" finished-at="2020-06-08T14:57:35Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.tests.IBSGetUIHighlightsTest -->
+      <class name="com.qa.tests.CVIInvkeViaTxt">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.qa.tests.CVIInvkeViaTxt@7b02881e]" started-at="2020-06-08T14:57:12Z" name="login" finished-at="2020-06-08T14:57:13Z" duration-ms="1519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngEndTest@117e949d]" started-at="2020-06-08T14:57:13Z" name="login" finished-at="2020-06-08T14:57:14Z" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngPauseTest@6db9f5a4]" started-at="2020-06-08T14:57:14Z" name="login" finished-at="2020-06-08T14:57:14Z" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngResumTest@5f8edcc5]" started-at="2020-06-08T14:57:14Z" name="login" finished-at="2020-06-08T14:57:14Z" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.qa.tests.CVIMultiplInvkeMtngStrtTest@10d68fcd]" started-at="2020-06-08T14:57:14Z" name="login" finished-at="2020-06-08T14:57:14Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.tests.IBSGetUIHighlightsTest@343570b7]" started-at="2020-06-08T14:57:14Z" name="setUP" finished-at="2020-06-08T14:57:14Z" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.tests.IBSGetUIMeetingsTest@3943a2be]" started-at="2020-06-08T14:57:14Z" name="setUP" finished-at="2020-06-08T14:57:14Z" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.tests.IBSGetUITranscriptsTest@157853da]" started-at="2020-06-08T14:57:14Z" name="setUP" finished-at="2020-06-08T14:57:15Z" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+      </class> <!-- com.qa.tests.CVIInvkeViaTxt -->
+    </test> <!-- GET Service using IBS LOGIN Test -->
   </suite> <!-- POST SKILLS using CVI LOGIN -->
 </testng-results>

@@ -1,36 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [POST SKILLS using CVI LOGIN]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="POST SKILLS using CVI LOGIN Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.CVIMultiplInvkeMtngEndTest">
+      <class name="com.qa.tests.IBSGetMeetingsTest">
         <methods>
-          <include name="statusCodeTest" invocation-numbers="0 1"/>
-          <include name="login"/>
+          <include name="setUP"/>
+          <include name="statusCodeTest" invocation-numbers="0"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.qa.tests.CVIMultiplInvkeMtngEndTest -->
-      <class name="com.qa.tests.CVIMultiplInvkeMtngPauseTest">
-        <methods>
-          <include name="statusCodeTest" invocation-numbers="0 1"/>
-          <include name="login"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.qa.tests.CVIMultiplInvkeMtngPauseTest -->
-      <class name="com.qa.tests.CVIMultiplInvkeMtngStrtTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="statusCodeTest" invocation-numbers="0 1"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- com.qa.tests.CVIMultiplInvkeMtngStrtTest -->
-      <class name="com.qa.tests.CVIMultiplInvkeMtngResumTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="statusCodeTest" invocation-numbers="0 1"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- com.qa.tests.CVIMultiplInvkeMtngResumTest -->
+      </class> <!-- com.qa.tests.IBSGetMeetingsTest -->
     </classes>
-  </test> <!-- POST SKILLS using CVI LOGIN Test(failed) -->
-</suite> <!-- Failed suite [POST SKILLS using CVI LOGIN] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

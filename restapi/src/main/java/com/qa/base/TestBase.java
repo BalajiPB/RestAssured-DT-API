@@ -14,6 +14,8 @@ import org.apache.log4j.PropertyConfigurator;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
+import com.aventstack.extentreports.reporter.configuration.*;
 
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -28,6 +30,7 @@ public class TestBase {
 	public static ExtentHtmlReporter htmlReporter;
 	public static ExtentReports extent;
 	public static ExtentTest loggerTest;
+	public static ExtentTest ChildloggerTest;
 	
 	public TestBase() {
 		try {
@@ -45,6 +48,9 @@ public class TestBase {
 		htmlReporter = new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"/test-output/extent.html"));
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
+		htmlReporter.config().setTheme(Theme.STANDARD);
+//		htmlReporter.config().setTestViewChartLocation();
+		extent.setSystemInfo("OS", "Windows 10");
 		
 		
 		logger =LogManager.getLogger("restapi");
