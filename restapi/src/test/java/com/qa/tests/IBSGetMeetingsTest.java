@@ -88,7 +88,7 @@ public class IBSGetMeetingsTest extends TestBase{
 
 	@Test(dataProvider = "GETData")
 	public void statusCodeTest(String serviceURL, String ContentTyp, String Accept, String XTenant, String payload) throws ParseException{	
-		//comment to be added
+		//comment
 		String accessToken = auth.accessToken;
 //		get.getMethodforIBS(serviceURL, ContentTyp, Accept, XTenant, baseURL, accessToken);
 //		httpRequest = RestAssured.given().auth().preemptive().oauth2(accessToken);
