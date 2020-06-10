@@ -11,11 +11,4 @@
 		</classes>
 	</test> <!-- Test -->
 
-	<test thread-count="4" name="GET Service using IBS LOGIN Test">
-		<classes>
-			<class name="com.qa.tests.IBSGetUIMeetingsTest" />
-			<class name="com.qa.tests.IBSGetUIHighlightsTest" />
-			<class name="com.qa.tests.IBSGetUITranscriptsTest" />
-		</classes>
-	</test> <!-- Test -->
 </suite> <!-- Suite -->
